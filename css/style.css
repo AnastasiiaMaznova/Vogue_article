@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 .container {
@@ -9,13 +8,21 @@
 }
 
 section .container {
-  width: 700px;
+  width: 624px;
+}
+
+.header__social {
+  position: absolute;
+  top: 25px;
+  left: 160px;
 }
 
 .social-icon {
-  margin: 10px;
+  margin: 7px;
 }
-
+.header__logo {
+  padding-top: 30px;
+}
 .logo__img {
   width: 400px;
 }
@@ -60,26 +67,37 @@ a {
 
 p {
   display: block;
+  text-align: justify;
+  line-height: 1.5;
 }
 
 .description__title {
   margin: -22px 0 0 0;
   padding: 0;
+  padding-top: 40px;
   font-size: 50px;
   line-height: 60px;
   text-align: center;
 }
+
+.description__date {
+  padding: 20px;
+  font-size: 13px;
+  font-family: serif;
+
+}
+
 .main__title {
   font-size: 25px;
+  margin: 50px;
 }
 
 .text.main__title {
-  border-top: 1px solid grey;
-  border-bottom: 1px solid gray;
-
-
+  border-top: 2px solid #AFAFAF;
+  border-bottom: 2px solid #AFAFAF;
+  padding: 20px 0px 20px 0px;
 }
-.main__text {
+.main__text, .description__text {
   font-size: 18px;
 
 }
