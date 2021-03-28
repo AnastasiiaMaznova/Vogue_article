@@ -49,20 +49,27 @@ ul {
 .menu-main ul.menu__list {
   color: #333;
 }
+ul.menu__list  {
+  border-bottom: 1px solid #6A6A6A;
+}
+
 
 .menu-main ul.menu__list li a,
 .menu-submenu ul.menu__list li a,
 .menu ul.menu__list li a {
   text-align: center;
   text-decoration: none;
+  font-size: 15px;
+
 }
 
 .menu-submenu ul.menu__list li a {
   color: white;
+  font-size: 15px;
 }
 
 ul.menu__list {
-  padding: 15px;
+  padding: 10px;
 }
 
 hr {
@@ -80,6 +87,7 @@ p {
   display: block;
   text-align: justify;
   line-height: 1.5;
+
 }
 
 .description__title {
@@ -93,8 +101,8 @@ p {
 
 .description__date {
   padding: 20px;
-  font-size: 13px;
-  font-family: serif;
+  font-size: 15px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .main__title {
@@ -122,7 +130,9 @@ p {
 
 .recomendation__article {
   text-align: left;
-
+}
+.recomendation__article-description {
+  font-weight: bold;
 }
 
 .footer {
@@ -133,10 +143,14 @@ p {
 
 .footer__socials {
   text-align: center;
+  padding: 40px;
 }
 
 .footer__copy {
   text-align: left;
-  padding-left: 80px;
-  padding-top: 20px;
+  padding-left: 90px;
+  padding-top: 50px;
+  font-size: 15px;
+  color: #6A6A6A;
+  border-top: 1px solid #6A6A6A;
 }
