@@ -49,10 +49,10 @@ ul {
 .menu-main ul.menu__list {
   color: #333;
 }
+
 ul.menu__list  {
   border-bottom: 1px solid #6A6A6A;
 }
-
 
 .menu-main ul.menu__list li a,
 .menu-submenu ul.menu__list li a,
@@ -70,6 +70,11 @@ ul.menu__list  {
 
 ul.menu__list {
   padding: 10px;
+}
+
+.menu__link {
+  text-transform: uppercase;
+
 }
 
 hr {
